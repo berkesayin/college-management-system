@@ -457,7 +457,7 @@
             this.Controls.Add(this.pbxBerke);
             this.Controls.Add(this.pnlTitleBar);
             this.Controls.Add(this.pnlContentOfUs);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form4StaffMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4StaffMng";

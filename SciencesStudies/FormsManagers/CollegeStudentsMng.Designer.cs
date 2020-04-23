@@ -628,7 +628,7 @@
             this.Controls.Add(this.dgwCollegeStudents);
             this.Controls.Add(this.pnlTitleCollegeStudents);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "CollegeStudentsMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CollegeStudentsMng";
