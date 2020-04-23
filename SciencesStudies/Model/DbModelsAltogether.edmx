@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="InstituteDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Academicians">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Gender" Type="varchar" MaxLength="255" />
+          <Property Name="Age" Type="int" />
+          <Property Name="College" Type="varchar" MaxLength="255" />
+          <Property Name="Department" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="CollegeStudents">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Gender" Type="varchar" MaxLength="255" />
+          <Property Name="Age" Type="int" />
+          <Property Name="College" Type="varchar" MaxLength="255" />
+          <Property Name="Department" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="EnglishBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="BookName" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" />
+          <Property Name="KindOfBook" Type="varchar" MaxLength="255" />
+          <Property Name="AuthorName" Type="varchar" MaxLength="255" />
+          <Property Name="Price" Type="int" />
+          <Property Name="Available" Type="varchar" MaxLength="3" />
+        </EntityType>
+        <EntityType Name="ForeignMembers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Gender" Type="varchar" MaxLength="255" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Nationality" Type="varchar" MaxLength="255" />
+          <Property Name="Job" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="GeneralBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="BookName" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" />
+          <Property Name="KindOfBook" Type="varchar" MaxLength="255" />
+          <Property Name="AuthorName" Type="varchar" MaxLength="255" />
+          <Property Name="Price" Type="int" />
+        </EntityType>
+        <EntityType Name="GeneralMembers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Gender" Type="varchar" MaxLength="255" />
+          <Property Name="Age" Type="int" />
+        </EntityType>
+        <EntityType Name="Journals">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="JournalName" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="SubjectOfIt" Type="varchar" MaxLength="255" />
+          <Property Name="Country" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Price" Type="int" />
+        </EntityType>
+        <EntityType Name="LiteratureBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="BookName" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" />
+          <Property Name="KindOfBook" Type="varchar" MaxLength="255" />
+          <Property Name="AuthorName" Type="varchar" MaxLength="255" />
+          <Property Name="Price" Type="int" />
+          <Property Name="Country" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="MathematicalBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="BookName" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" />
+          <Property Name="KindOfBook" Type="varchar" MaxLength="255" />
+          <Property Name="AuthorName" Type="varchar" MaxLength="255" />
+          <Property Name="Price" Type="int" />
+          <Property Name="Branch" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Newspapers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="NewspapersName" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Contry" Type="varchar" MaxLength="255" />
+          <Property Name="Price" Type="int" />
+        </EntityType>
+        <EntityType Name="OrderList">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="KindOfText" Type="varchar" MaxLength="255" />
+          <Property Name="NameOfText" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" />
+          <Property Name="Price" Type="int" />
+          <Property Name="DeliveryDay" Type="int" />
+        </EntityType>
+        <EntityType Name="Researchers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Gender" Type="varchar" MaxLength="255" />
+          <Property Name="Age" Type="int" />
+          <Property Name="College" Type="varchar" MaxLength="255" />
+          <Property Name="Department" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SocialBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="BookName" Type="varchar" MaxLength="255" />
+          <Property Name="LanguageOfIt" Type="varchar" MaxLength="255" />
+          <Property Name="KindOfBook" Type="varchar" MaxLength="255" />
+          <Property Name="AuthorName" Type="varchar" MaxLength="255" />
+          <Property Name="Price" Type="int" />
+          <Property Name="Branch" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Gender" Type="varchar" MaxLength="255" />
+          <Property Name="Age" Type="int" />
+          <Property Name="College" Type="varchar" MaxLength="255" />
+          <Property Name="Department" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="InstituteDbModelStoreContainer">
+          <EntitySet Name="Academicians" EntityType="Self.Academicians" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CollegeStudents" EntityType="Self.CollegeStudents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EnglishBooks" EntityType="Self.EnglishBooks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ForeignMembers" EntityType="Self.ForeignMembers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GeneralBooks" EntityType="Self.GeneralBooks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GeneralMembers" EntityType="Self.GeneralMembers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Journals" EntityType="Self.Journals" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LiteratureBooks" EntityType="Self.LiteratureBooks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MathematicalBooks" EntityType="Self.MathematicalBooks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Newspapers" EntityType="Self.Newspapers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderList" EntityType="Self.OrderList" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Researchers" EntityType="Self.Researchers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SocialBooks" EntityType="Self.SocialBooks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teachers" EntityType="Self.Teachers" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="InstituteDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Academicians">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="CollegeStudents">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="EnglishBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="Available" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ForeignMembers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="Nationality" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Job" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="GeneralBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+        </EntityType>
+        <EntityType Name="GeneralMembers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Journals">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="JournalName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SubjectOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Country" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Price" Type="Int32" />
+        </EntityType>
+        <EntityType Name="LiteratureBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="Country" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="MathematicalBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="Branch" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Newspapers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="NewspapersName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Contry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+        </EntityType>
+        <EntityType Name="OrderList">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="KindOfText" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="NameOfText" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="DeliveryDay" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Researchers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="SocialBooks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="Branch" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="InstituteDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Academicians" EntityType="Self.Academicians" />
+          <EntitySet Name="CollegeStudents" EntityType="Self.CollegeStudents" />
+          <EntitySet Name="EnglishBooks" EntityType="Self.EnglishBooks" />
+          <EntitySet Name="ForeignMembers" EntityType="Self.ForeignMembers" />
+          <EntitySet Name="GeneralBooks" EntityType="Self.GeneralBooks" />
+          <EntitySet Name="GeneralMembers" EntityType="Self.GeneralMembers" />
+          <EntitySet Name="Journals" EntityType="Self.Journals" />
+          <EntitySet Name="LiteratureBooks" EntityType="Self.LiteratureBooks" />
+          <EntitySet Name="MathematicalBooks" EntityType="Self.MathematicalBooks" />
+          <EntitySet Name="Newspapers" EntityType="Self.Newspapers" />
+          <EntitySet Name="OrderList" EntityType="Self.OrderList" />
+          <EntitySet Name="Researchers" EntityType="Self.Researchers" />
+          <EntitySet Name="SocialBooks" EntityType="Self.SocialBooks" />
+          <EntitySet Name="Teachers" EntityType="Self.Teachers" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="InstituteDbModelStoreContainer" CdmEntityContainer="InstituteDbEntities">
+          <EntitySetMapping Name="Academicians">
+            <EntityTypeMapping TypeName="InstituteDbModel.Academicians">
+              <MappingFragment StoreEntitySet="Academicians">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="College" ColumnName="College" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CollegeStudents">
+            <EntityTypeMapping TypeName="InstituteDbModel.CollegeStudents">
+              <MappingFragment StoreEntitySet="CollegeStudents">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="College" ColumnName="College" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EnglishBooks">
+            <EntityTypeMapping TypeName="InstituteDbModel.EnglishBooks">
+              <MappingFragment StoreEntitySet="EnglishBooks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BookName" ColumnName="BookName" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="KindOfBook" ColumnName="KindOfBook" />
+                <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Available" ColumnName="Available" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ForeignMembers">
+            <EntityTypeMapping TypeName="InstituteDbModel.ForeignMembers">
+              <MappingFragment StoreEntitySet="ForeignMembers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+                <ScalarProperty Name="Job" ColumnName="Job" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GeneralBooks">
+            <EntityTypeMapping TypeName="InstituteDbModel.GeneralBooks">
+              <MappingFragment StoreEntitySet="GeneralBooks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BookName" ColumnName="BookName" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="KindOfBook" ColumnName="KindOfBook" />
+                <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GeneralMembers">
+            <EntityTypeMapping TypeName="InstituteDbModel.GeneralMembers">
+              <MappingFragment StoreEntitySet="GeneralMembers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Journals">
+            <EntityTypeMapping TypeName="InstituteDbModel.Journals">
+              <MappingFragment StoreEntitySet="Journals">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="JournalName" ColumnName="JournalName" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="SubjectOfIt" ColumnName="SubjectOfIt" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LiteratureBooks">
+            <EntityTypeMapping TypeName="InstituteDbModel.LiteratureBooks">
+              <MappingFragment StoreEntitySet="LiteratureBooks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BookName" ColumnName="BookName" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="KindOfBook" ColumnName="KindOfBook" />
+                <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MathematicalBooks">
+            <EntityTypeMapping TypeName="InstituteDbModel.MathematicalBooks">
+              <MappingFragment StoreEntitySet="MathematicalBooks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BookName" ColumnName="BookName" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="KindOfBook" ColumnName="KindOfBook" />
+                <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Newspapers">
+            <EntityTypeMapping TypeName="InstituteDbModel.Newspapers">
+              <MappingFragment StoreEntitySet="Newspapers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NewspapersName" ColumnName="NewspapersName" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="Contry" ColumnName="Contry" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderList">
+            <EntityTypeMapping TypeName="InstituteDbModel.OrderList">
+              <MappingFragment StoreEntitySet="OrderList">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="KindOfText" ColumnName="KindOfText" />
+                <ScalarProperty Name="NameOfText" ColumnName="NameOfText" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="DeliveryDay" ColumnName="DeliveryDay" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Researchers">
+            <EntityTypeMapping TypeName="InstituteDbModel.Researchers">
+              <MappingFragment StoreEntitySet="Researchers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="College" ColumnName="College" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SocialBooks">
+            <EntityTypeMapping TypeName="InstituteDbModel.SocialBooks">
+              <MappingFragment StoreEntitySet="SocialBooks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BookName" ColumnName="BookName" />
+                <ScalarProperty Name="LanguageOfIt" ColumnName="LanguageOfIt" />
+                <ScalarProperty Name="KindOfBook" ColumnName="KindOfBook" />
+                <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teachers">
+            <EntityTypeMapping TypeName="InstituteDbModel.Teachers">
+              <MappingFragment StoreEntitySet="Teachers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="College" ColumnName="College" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

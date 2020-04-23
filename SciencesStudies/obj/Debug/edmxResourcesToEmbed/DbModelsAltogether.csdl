@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InstituteDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Academicians">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CollegeStudents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="EnglishBooks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Available" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ForeignMembers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Nationality" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Job" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GeneralBooks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+  </EntityType>
+  <EntityType Name="GeneralMembers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Journals">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="JournalName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SubjectOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Country" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Price" Type="Int32" />
+  </EntityType>
+  <EntityType Name="LiteratureBooks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Country" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MathematicalBooks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Branch" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Newspapers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="NewspapersName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+  </EntityType>
+  <EntityType Name="OrderList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="KindOfText" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="NameOfText" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="DeliveryDay" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Researchers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SocialBooks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="BookName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LanguageOfIt" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="KindOfBook" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Branch" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="College" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="InstituteDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Academicians" EntityType="Self.Academicians" />
+    <EntitySet Name="CollegeStudents" EntityType="Self.CollegeStudents" />
+    <EntitySet Name="EnglishBooks" EntityType="Self.EnglishBooks" />
+    <EntitySet Name="ForeignMembers" EntityType="Self.ForeignMembers" />
+    <EntitySet Name="GeneralBooks" EntityType="Self.GeneralBooks" />
+    <EntitySet Name="GeneralMembers" EntityType="Self.GeneralMembers" />
+    <EntitySet Name="Journals" EntityType="Self.Journals" />
+    <EntitySet Name="LiteratureBooks" EntityType="Self.LiteratureBooks" />
+    <EntitySet Name="MathematicalBooks" EntityType="Self.MathematicalBooks" />
+    <EntitySet Name="Newspapers" EntityType="Self.Newspapers" />
+    <EntitySet Name="OrderList" EntityType="Self.OrderList" />
+    <EntitySet Name="Researchers" EntityType="Self.Researchers" />
+    <EntitySet Name="SocialBooks" EntityType="Self.SocialBooks" />
+    <EntitySet Name="Teachers" EntityType="Self.Teachers" />
+  </EntityContainer>
+</Schema>
