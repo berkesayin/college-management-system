@@ -424,7 +424,6 @@
       <DependentUpon>DbModelsAltogether.edmx</DependentUpon>
       <LastGenOutput>DbModelsAltogether.cs</LastGenOutput>
     </Content>
-    <None Include="Resources\toggleImageWhite.png" />
     <None Include="Resources\transparent-users-icon new.png" />
     <None Include="Resources\images12 new.png" />
     <None Include="Resources\user icon sample new.png" />

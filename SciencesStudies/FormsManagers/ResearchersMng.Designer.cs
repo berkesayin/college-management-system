@@ -625,7 +625,7 @@
             this.Controls.Add(this.dgwResearchers);
             this.Controls.Add(this.pnlTitleResearcher);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ResearchersMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ResearchersMng";
