@@ -127,6 +127,7 @@ namespace SciencesStudies
             //this.pictureBoxToggle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             //this.pictureBoxToggle.TabIndex = 15;
             //this.pictureBoxToggle.TabStop = false;
+            //yeni eklendi
 
             if (i % 2 == 0)
             {
