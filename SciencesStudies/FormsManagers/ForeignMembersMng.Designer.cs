@@ -628,7 +628,7 @@
             this.Controls.Add(this.dgwForeignMembers);
             this.Controls.Add(this.pnlTitleForeignMembers);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ForeignMembersMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ForeignMembersMng";

@@ -263,6 +263,7 @@
             this.radioBtnAcademician.TabStop = true;
             this.radioBtnAcademician.Text = "Academician";
             this.radioBtnAcademician.UseVisualStyleBackColor = true;
+            this.radioBtnAcademician.PerformClick();
             // 
             // lblNameOfInstitute
             // 
@@ -353,7 +354,7 @@
             this.Controls.Add(this.tbxGender);
             this.Controls.Add(this.pnlFirstName);
             this.Controls.Add(this.tbxFirstName);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
