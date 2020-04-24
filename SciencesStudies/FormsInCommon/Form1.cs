@@ -13,7 +13,7 @@ namespace SciencesStudies
 {
     public partial class Form1 : Form
     {
-        string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=FellowsAndMembersDb;Integrated Security=True;";
+        string connectionString = @"Data Source=DESKTOP-PFG1UGB\SQLEXPRESS;Initial Catalog=FellowsAndMembersDb;Integrated Security=True;";
 
         public Form1()
         {
