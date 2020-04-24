@@ -14,6 +14,7 @@ namespace SciencesStudies
         [STAThread]
         static void Main()
         {
+            //Deneme
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
