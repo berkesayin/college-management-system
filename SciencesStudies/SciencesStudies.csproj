@@ -267,7 +267,7 @@
     <Compile Include="Model\Researchers.cs">
       <DependentUpon>DbModelsAltogether.tt</DependentUpon>
     </Compile>
-    <Compile Include="EFClassesUsers\ResearchersDalMng.cs" />
+    <Compile Include="EFClassesManagers\ResearchersDalMng.cs" />
     <Compile Include="FormsManagers\ResearchersMng.cs">
       <SubType>Form</SubType>
     </Compile>

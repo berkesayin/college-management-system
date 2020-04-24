@@ -142,3 +142,43 @@ C:\Users\berke\Desktop\newistanbul - Kopya - Kopya\newistanbul\SciencesStudies\o
 C:\Users\berke\Desktop\newistanbul - Kopya - Kopya\newistanbul\SciencesStudies\obj\Debug\SciencesStudies.csproj.CopyComplete
 C:\Users\berke\Desktop\newistanbul - Kopya - Kopya\newistanbul\SciencesStudies\obj\Debug\SciencesStudies.exe
 C:\Users\berke\Desktop\newistanbul - Kopya - Kopya\newistanbul\SciencesStudies\obj\Debug\SciencesStudies.pdb
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.exe.config
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.exe
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.pdb
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.dll
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.xml
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csprojAssemblyReference.cache
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.AcademiciansMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.CollegeStudentsMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.EnglishBooksMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.EnglishBooksUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.ForeignMembersMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form1.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form3Main.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form3MainMembers.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form4StaffMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.FormSignIn.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralBooksMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralBooksUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralMembersMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.JournalsMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.JournalsUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.LiteratureBooksMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.LiteratureBooksUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.MathematicalBooksMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.MathematicalBooksUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.NewspapersMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.NewspapersUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.OrderListMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.OrderListUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Properties.Resources.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.ResearchersMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.SocialBooksMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.SocialBooksUser.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.TeachersMng.resources
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.GenerateResource.cache
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.CopyComplete
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.exe
+C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.pdb
