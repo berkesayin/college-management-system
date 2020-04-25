@@ -143,6 +143,10 @@ Now project is ready to work at your computer.
 NOTE !! : We will send scripts here,inside this repository right after we complete records.If you want scripts as they are 
 right now,please send me a reminder!!
 
+NOT !!! Projemizin %80 neredeyse bitti.Kalan dönemde 
+-LINQ ile filtereleme yani Search işlemi üzerinde çalışacağız 
+-Tabloların herbirinde en az 100 kayıt bulunacak şekilde eklemeler yapacağız.
+-SQL Server'dan CREATE,USE,SELECT,INSERT INTO,UPDATE,DELETE,WHERE Gender = 'Male' komutlarının kullanımını göstereceğiz.
 
 
 
