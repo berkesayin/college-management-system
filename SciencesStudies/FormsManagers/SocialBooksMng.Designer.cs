@@ -659,7 +659,7 @@
             this.Controls.Add(this.dgwSocialBooks);
             this.Controls.Add(this.pnlTitleSocialBooks);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "SocialBooksMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SocialBooksMng";

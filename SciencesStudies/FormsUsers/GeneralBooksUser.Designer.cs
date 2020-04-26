@@ -295,7 +295,7 @@
             this.Controls.Add(this.dgwGeneralBooks);
             this.Controls.Add(this.pnlTitle);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "GeneralBooksUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GeneralBooksUser";

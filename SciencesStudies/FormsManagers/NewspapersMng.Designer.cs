@@ -576,7 +576,7 @@
             this.Controls.Add(this.dgwNewspapers);
             this.Controls.Add(this.pnlTitleNewspapers);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "NewspapersMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NewspapersMng";

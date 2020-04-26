@@ -658,7 +658,7 @@
             this.Controls.Add(this.dgwLiteratureBooks);
             this.Controls.Add(this.pnlTitleLiteratureBooks);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "LiteratureBooksMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LiteratureBooksMng";

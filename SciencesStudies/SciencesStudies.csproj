@@ -267,7 +267,7 @@
     <Compile Include="Model\Researchers.cs">
       <DependentUpon>DbModelsAltogether.tt</DependentUpon>
     </Compile>
-    <Compile Include="EFClassesManagers\ResearchersDalMng.cs" />
+    <Compile Include="EFClassesUsers\ResearchersDalMng.cs" />
     <Compile Include="FormsManagers\ResearchersMng.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -424,6 +424,7 @@
       <DependentUpon>DbModelsAltogether.edmx</DependentUpon>
       <LastGenOutput>DbModelsAltogether.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\toggleImageWhite.png" />
     <None Include="Resources\transparent-users-icon new.png" />
     <None Include="Resources\images12 new.png" />
     <None Include="Resources\user icon sample new.png" />
