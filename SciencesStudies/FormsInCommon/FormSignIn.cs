@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Diagnostics;
 
 namespace SciencesStudies
 {
@@ -28,6 +29,7 @@ namespace SciencesStudies
         {
             
         }
+
 
         private void btnSignInLogo_Click(object sender, EventArgs e)
         {
@@ -126,9 +128,14 @@ namespace SciencesStudies
                 tbxSignInPassword.UseSystemPasswordChar = true;
             }
             i++;
-            
+           
+        }
 
-
+        //Berke sayın ekledi
+        private void pbxGitHubLogo_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("https://github.com/berkesayin/IstanbulRepo%22");
+            Process.Start(sInfo);
         }
 
     }
