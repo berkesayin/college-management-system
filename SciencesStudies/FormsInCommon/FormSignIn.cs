@@ -107,14 +107,6 @@ namespace SciencesStudies
         int i = 0;
         private void pictureBoxToggle_Click(object sender, EventArgs e)
         {
-            //pictureBoxToggle.Image = global::SciencesStudies.Properties.Resources.toggleImageTurkuaz;
-            //this.pictureBoxToggle.Location = new System.Drawing.Point(274, 171);
-            //this.pictureBoxToggle.Name = "pictureBoxToggle";
-            //this.pictureBoxToggle.Size = new System.Drawing.Size(33, 26);
-            //this.pictureBoxToggle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            //this.pictureBoxToggle.TabIndex = 15;
-            //this.pictureBoxToggle.TabStop = false;
-            //yeni eklendi.
 
             if (i % 2 == 0)
             {
@@ -125,9 +117,6 @@ namespace SciencesStudies
                 tbxSignInPassword.UseSystemPasswordChar = true;
             }
             i++;
-            
-
-
         }
     }
 }
