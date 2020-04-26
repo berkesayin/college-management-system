@@ -38,3 +38,10 @@ SciencesStudies/bin/Debug/SciencesStudies.pdb
 SciencesStudies/obj/Debug/SciencesStudies.exe
 SciencesStudies/obj/Debug/SciencesStudies.pdb
 
+*.cache
+*.config
+*.exe
+*.resources
+*.dll
+*.pdb
+*.exe

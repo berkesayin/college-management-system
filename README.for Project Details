@@ -1,0 +1,152 @@
+# Istanbul Institute for Advanced Study in the Humanities and Sciences
+
+This is a management system for a research center.This system can handle all the details of this international institute,including
+the library and users.
+
+Visual Studio for C# with Windows Forms App.is used for Graphical User Interface(GUI).And this project is connected with database
+through Microsoft SQL Server, so all datas for the institute are kept inside the database,and both Users and Managers can manage
+adding or deleting record through C# interface.And also Manager can control the database from SQL Server itself.
+
+Solution Name = IstanbulResearchCenter
+Project Name = SciencesStudies
+Database  in SQL Server = InstituteDb
+There are 14 separate tables inside InstituteDb for the objects below. 
+
+List of objects : 
+1.General Members
+2.Academicians
+3.Researchers 
+4.Teachers 
+5.College Students 
+6.Foreign Members
+7.Books in General
+8.World Literature Books
+9.Social Sciences Books
+10.Mathematical Sciences Books
+11.English Books
+12.Journals
+13.Newspapers
+14.Order List 
+
+IMPORTANT NOTE !! : Users and Managers have to log in(sign in) the system in order to get access with "Research Center Management
+System".The database that conducts these operations is created at SQL Server with the name of "FellowsAndMembersDb".Inside the database
+is only one table named tblMembers that keeping  all members' datas and informations.
+
+In this project,we want to work with the content of the Object Relational Mapping system.So we implement Entity Framework
+from "Manage Nuget Packages" where developers can install new libraries or systems inside .NET Framework.After installing Entity Framework, two new libraries(Entity Framework ve E.F.SQL Server) will come inside References at Solution Explorer.
+
+NOTE !! : Entity Framework uses 3 different approaches for Object Relational Mapping Models.
+-Database First Approach
+-Code First Approach
+-Model First Approach
+
+In order to use Database First Approach,we first need to open SQL Server and then create a new database(using a new query) with
+14 tables with their columns.Let's name the database "InstituteDb".
+
+Here,for the project,we will use Database First Approcah(for new entity model for tables).To do so,we right click on project name
+at solution explorer and then go to Add New Item - Data - AdoNet entity Data Model.Let's name the model DbModelsAltogether.
+We then choose Entity Framework Designer From Database.
+
+Then we click on New Connection - Server Name = (localdb)\MSSQLLocalDB(our server) -  InstituteDb - and then check the all tables.
+This process is known as "Database First Approach".
+
+
+////////////////
+After completing the whole project :
+There will exist 27 forms and  22 classes(each of them is for Entity Framework Operations-add,update,delete,and search)
+We will use folder systems at solution explorer to prevent the solution explorer from being very complicated and confusing.
+
+Folder 1 : FormsInCommon : FORMS(IN COMMON WITH MANAGERS AND USERS)
+Form1
+FormSignIn
+Form4StaffMng
+
+Folder 2 : FormsManagers : FORMS(FOR MANAGERS)
+Form3Main
+GeneralManagersMng
+AcademiciansMng
+ResearchersMng
+TeachersMng
+CollegeStudentsMng
+ForeignMembersMng
+GeneralBooksMng
+LiteratureBooksMng
+SocialBooksMng
+MathematicalBooksMng
+EnglishBooksMng
+JournalsMng
+NewspapersMng
+OrderListMng
+
+Folder 3 : FormsUsers : FORMS(FOR USERS)
+Form3MainMembers
+GeneralBooksUser
+LiteratureBooksUser
+SocialBooksUser
+MathematicalBooksUser
+EnglishBooksUser
+JournalsUser
+NewspapersUser
+OrderListUser
+
+
+Folder 4 : EFClassesManagers : CLASSES(FOR ENTITY FRAMEWORK OPERATIONS-add,update,delete,search FOR MANAGERS'FORMS)
+GeneralManagersDalMng
+AcademiciansDalMng
+ResearchersDalMng
+TeachersDalMng
+CollegeStudentsDalMng
+ForeignMembersDalMng
+GeneralBooksDalMng
+LiteratureBooksDalMng
+SocialBooksDalMng
+MathematicalBooksDalMng
+EnglishBooksDalMng
+JournalsDalMng
+NewspapersDalMng
+OrderListDalMng
+
+Folder 5 : EFClassesUsers CLASSES(FOR ENTITY FRAMEWORK OPERATIONS-add,update,delete,search FOR USERS' FORMS)
+GeneralBooksDalUser
+LiteratureBooksDalUser
+SocialBooksDalUser
+MathematicalBooksDalUser
+EnglishBooksDalUser
+JournalsDalUser
+NewspapersDalUser
+OrderListDalUser
+
+Folder 6 : Model
+DbModelsAltogether
+
+//////////////
+If you are interested with this project,we can share with you this open source project with open arms.And you can also get the
+databases with their all tables with the records they keep inside.
+
+There are 2 databases :
+-FellowsAndMembersDb(for registration and sign in) : 1 table
+-InstituteDb(for all add,update,delete,search operations for users and managers) : 14 tables
+
+The thing we need to do to share this project with you is to create the script texts with Schema and Datas for databases from 
+SQL Server,and then,you will need to Execute those scripts in your SQL Server's new query.
+-Script text for InstituteDb
+-Script text for FellowsAndMembersDb
+
+The thing that you should do is to go inside project at Visual Studio and then go inside the code of Form1 and FormSignIn 
+and than change Server Name(Data Source) to yours for the 1st database(FellowsAndMembersDb)
+
+The last thing that you need to do is to go inside App.config file where entity framework database first approach creates the
+data source among <connectionStrings> tags.Go there change the server name to yours.
+
+Now project is ready to work at your computer.
+
+NOTE !! : We will send scripts here,inside this repository right after we complete records.If you want scripts as they are 
+right now,please send me a reminder!!
+
+NOT !!! Projemizin %80 neredeyse bitti.Kalan dönemde 
+-LINQ ile filtereleme yani Search işlemi üzerinde çalışacağız 
+-Tabloların herbirinde en az 100 kayıt bulunacak şekilde eklemeler yapacağız.
+-SQL Server'dan CREATE,USE,SELECT,INSERT INTO,UPDATE,DELETE,WHERE Gender = 'Male' komutlarının kullanımını göstereceğiz.
+
+
+

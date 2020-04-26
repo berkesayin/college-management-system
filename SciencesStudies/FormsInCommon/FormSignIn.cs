@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Diagnostics;
 
 namespace SciencesStudies
 {
@@ -54,13 +55,11 @@ namespace SciencesStudies
                     Form3MainMembers form3MainMembers = new Form3MainMembers();
                     form3MainMembers.ShowDialog();
                 }
-
             }
             else
             {
                 MessageBox.Show("Please Check your Username and Password");
             }
-
         }
 
         private void tbxSignInUsername_Enter(object sender, EventArgs e)
@@ -104,10 +103,10 @@ namespace SciencesStudies
             }
             
         }
+
         int i = 0;
         private void pictureBoxToggle_Click(object sender, EventArgs e)
         {
-
             if (i % 2 == 0)
             {
                 tbxSignInPassword.UseSystemPasswordChar = false;
@@ -117,6 +116,13 @@ namespace SciencesStudies
                 tbxSignInPassword.UseSystemPasswordChar = true;
             }
             i++;
+        }
+
+        //Ali Balbars ekledi.
+        private void pbxGitHubLogo_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("https://github.com/berkesayin/IstanbulRepo");
+            Process.Start(sInfo);
         }
     }
 }
