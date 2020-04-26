@@ -16,18 +16,18 @@ namespace SciencesStudies
     {
         public FormSignIn()
         {
-            InitializeComponent();  
-            
+            InitializeComponent();
+
         }
 
         private void tbxSignInUsername_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void tbxSignInPassword_Click(object sender, EventArgs e)
         {
-            
+
         }
 
 
@@ -56,13 +56,11 @@ namespace SciencesStudies
                     Form3MainMembers form3MainMembers = new Form3MainMembers();
                     form3MainMembers.ShowDialog();
                 }
-
             }
             else
             {
                 MessageBox.Show("Please Check your Username and Password");
             }
-
         }
 
 
@@ -105,11 +103,13 @@ namespace SciencesStudies
                 if (i % 2 == 0)
                     tbxSignInPassword.UseSystemPasswordChar = false;
             }
-            
+
         }
+
         int i = 0;
         private void pictureBoxToggle_Click(object sender, EventArgs e)
         {
+
             //pictureBoxToggle.Image = global::SciencesStudies.Properties.Resources.toggleImageTurkuaz;
             //this.pictureBoxToggle.Location = new System.Drawing.Point(274, 171);
             //this.pictureBoxToggle.Name = "pictureBoxToggle";
@@ -117,6 +117,7 @@ namespace SciencesStudies
             //this.pictureBoxToggle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             //this.pictureBoxToggle.TabIndex = 15;
             //this.pictureBoxToggle.TabStop = false;
+
 
 
             if (i % 2 == 0)
@@ -128,7 +129,8 @@ namespace SciencesStudies
                 tbxSignInPassword.UseSystemPasswordChar = true;
             }
             i++;
-           
+
+
         }
 
         //Berke sayın ekledi
@@ -137,6 +139,9 @@ namespace SciencesStudies
             ProcessStartInfo sInfo = new ProcessStartInfo("https://github.com/berkesayin/IstanbulRepo%22");
             Process.Start(sInfo);
         }
+
+        
+        
 
     }
 }

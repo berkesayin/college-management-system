@@ -263,6 +263,7 @@ namespace SciencesStudies
             this.pbxGitHubLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxGitHubLogo.TabIndex = 9;
             this.pbxGitHubLogo.TabStop = false;
+            this.pbxGitHubLogo.Click += new System.EventHandler(this.pbxGitHubLogo_Click);
             // 
             // pbxGoogleLogo
             // 
