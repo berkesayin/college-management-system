@@ -619,7 +619,7 @@
             this.Controls.Add(this.dgwJournals);
             this.Controls.Add(this.pnlTitleJournals);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "JournalsMng";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JournalsMng";

@@ -19,30 +19,19 @@ namespace SciencesStudies
             
         }
 
-
         private void tbxSignInUsername_Click(object sender, EventArgs e)
         {
-            tbxSignInUsername.Clear();
-            pnlSignInUsername.BackColor = Color.FromArgb(78, 184, 206);
-            tbxSignInUsername.ForeColor = Color.FromArgb(78, 184, 206);
-
-            pnlSignInPassword.BackColor = Color.WhiteSmoke;
-            tbxSignInPassword.ForeColor = Color.WhiteSmoke;
+            
         }
 
         private void tbxSignInPassword_Click(object sender, EventArgs e)
         {
-            tbxSignInPassword.Clear();           
-            pnlSignInPassword.BackColor = Color.FromArgb(78, 184, 206);
-            tbxSignInPassword.ForeColor = Color.FromArgb(78, 184, 206);
-
-            pnlSignInUsername.BackColor = Color.WhiteSmoke;
-            tbxSignInUsername.ForeColor = Color.WhiteSmoke;
+            
         }
 
         private void btnSignInLogo_Click(object sender, EventArgs e)
         {
-            SqlConnection sqlConnection = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB ; Initial Catalog = FellowsAndMembersDb ; Integrated Security=True ;");
+            SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-PFG1UGB\SQLEXPRESS ; Initial Catalog = FellowsAndMembersDb ; Integrated Security=True ;");
             ///Yukarıdaki gibi yazalım eğer hata verirse FellowsAndMembersDb Properties'den copy-paste yaparız.
             string query = "Select * from tblMembers Where username = '" + tbxSignInUsername.Text.Trim() + "'and Password = '" + tbxSignInPassword.Text.Trim() + "'";
 
@@ -73,8 +62,6 @@ namespace SciencesStudies
             }
 
         }
-
-
 
 
         private void tbxSignInUsername_Enter(object sender, EventArgs e)
@@ -128,7 +115,7 @@ namespace SciencesStudies
             //this.pictureBoxToggle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             //this.pictureBoxToggle.TabIndex = 15;
             //this.pictureBoxToggle.TabStop = false;
-            //yeni eklendi
+
 
             if (i % 2 == 0)
             {

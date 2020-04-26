@@ -121,9 +121,6 @@
   <data name="github updated" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\github updated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Institute school" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Institute school.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sign in picture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign in picture1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,19 +136,25 @@
   <data name="images12 new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images12 new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="google icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\google icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sign in picture11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sign in picture11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="transparent-users-icon new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transparent-users-icon new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user icon sample new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user icon sample new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sign in picture11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign in picture11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="google icon new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\google icon new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="transparent-users-icon new" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\transparent-users-icon new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Institute school" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Institute school.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toggleImageWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toggleImageWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

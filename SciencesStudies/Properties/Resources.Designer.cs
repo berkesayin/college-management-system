@@ -163,6 +163,28 @@ namespace SciencesStudies.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap toggleImageWhite {
+            get {
+                object obj = ResourceManager.GetObject("toggleImageWhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toggleImageTurkuaz
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("toggleImageTurkuaz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap transparent_users_icon_new {
             get {
                 object obj = ResourceManager.GetObject("transparent-users-icon new", resourceCulture);
