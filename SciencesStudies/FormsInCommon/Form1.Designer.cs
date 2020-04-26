@@ -163,7 +163,6 @@
             this.tbxPassword.TabIndex = 8;
             this.tbxPassword.Text = "Password";
             this.tbxPassword.Click += new System.EventHandler(this.tbxPassword_Click);
-         
             // 
             // btnRegister
             // 
@@ -256,6 +255,7 @@
             // radioBtnAcademician
             // 
             this.radioBtnAcademician.AutoSize = true;
+            this.radioBtnAcademician.Checked = true;
             this.radioBtnAcademician.Location = new System.Drawing.Point(31, 47);
             this.radioBtnAcademician.Name = "radioBtnAcademician";
             this.radioBtnAcademician.Size = new System.Drawing.Size(136, 25);
@@ -263,7 +263,6 @@
             this.radioBtnAcademician.TabStop = true;
             this.radioBtnAcademician.Text = "Academician";
             this.radioBtnAcademician.UseVisualStyleBackColor = true;
-            this.radioBtnAcademician.PerformClick();
             // 
             // lblNameOfInstitute
             // 
@@ -335,7 +334,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(701, 725);
+            this.ClientSize = new System.Drawing.Size(701, 738);
             this.Controls.Add(this.lblNameOfInstitute);
             this.Controls.Add(this.pnlTryMove);
             this.Controls.Add(this.label1);
@@ -354,7 +353,7 @@
             this.Controls.Add(this.tbxGender);
             this.Controls.Add(this.pnlFirstName);
             this.Controls.Add(this.tbxFirstName);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
