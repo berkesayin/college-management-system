@@ -33,7 +33,7 @@ namespace SciencesStudies
 
         private void btnSignInLogo_Click(object sender, EventArgs e)
         {
-            SqlConnection sqlConnection = new SqlConnection(@"Data Source=(localdb)\MSSQLLocaldb ; Initial Catalog = FellowsAndMembersDb ; Integrated Security=True ;");
+            SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-0RUMVHB\SQLEXPRESS ; Initial Catalog = FellowsAndMembersDb ; Integrated Security=True ;");
             ///Yukarıdaki gibi yazalım eğer hata verirse FellowsAndMembersDb Properties'den copy-paste yaparız.
             string query = "Select * from tblMembers Where username = '" + tbxSignInUsername.Text.Trim() + "'and Password = '" + tbxSignInPassword.Text.Trim() + "'";
 

@@ -182,3 +182,85 @@ C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.cs
 C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.CopyComplete
 C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.exe
 C:\Users\berke\Desktop\IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.pdb
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.exe.config
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.exe
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.pdb
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.dll
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.SqlServer.dll
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.xml
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.SqlServer.xml
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csprojAssemblyReference.cache
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.AcademiciansMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.CollegeStudentsMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.EnglishBooksMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.EnglishBooksUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.ForeignMembersMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form1.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form3Main.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form3MainMembers.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form4StaffMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.FormSignIn.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralBooksMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralBooksUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralMembersMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.JournalsMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.JournalsUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.LiteratureBooksMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.LiteratureBooksUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.MathematicalBooksMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.MathematicalBooksUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.NewspapersMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.NewspapersUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.OrderListMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.OrderListUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Properties.Resources.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.ResearchersMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.SocialBooksMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.SocialBooksUser.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.TeachersMng.resources
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.GenerateResource.cache
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.CoreCompileInputs.cache
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.CopyComplete
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.exe
+E:\Bütün Dersler\8.C# Proj.OOP\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.pdb
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.exe.config
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.exe
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\bin\Debug\SciencesStudies.pdb
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.dll
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.xml
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csprojAssemblyReference.cache
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.AcademiciansMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.CollegeStudentsMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.EnglishBooksMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.EnglishBooksUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.ForeignMembersMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form1.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form3Main.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form3MainMembers.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Form4StaffMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.FormSignIn.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralBooksMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralBooksUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.GeneralMembersMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.JournalsMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.JournalsUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.LiteratureBooksMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.LiteratureBooksUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.MathematicalBooksMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.MathematicalBooksUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.NewspapersMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.NewspapersUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.OrderListMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.OrderListUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.Properties.Resources.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.ResearchersMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.SocialBooksMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.SocialBooksUser.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.TeachersMng.resources
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.GenerateResource.cache
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.CoreCompileInputs.cache
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.csproj.CopyComplete
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.exe
+C:\Users\Berke\Desktop\3.IstanbulRepo\SciencesStudies\obj\Debug\SciencesStudies.pdb
