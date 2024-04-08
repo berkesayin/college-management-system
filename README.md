@@ -29,7 +29,7 @@ git clone https://github.com/berkesayin/college-management-system.git
 
 3. Ensure that all necessary dependencies are installed. If not, install them via NuGet Package Manager.
 
-4. Configure the database connection string in the `app.config` file with your SQL Server instance details.
+4. Configure the database connection string in the `app.config` fdile with your SQL Server instance details.
 
 5. Build the solution.
 
